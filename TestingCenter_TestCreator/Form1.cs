@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -23,7 +24,10 @@ namespace TestingCenter_TestCreator
         public Form1()
         {
             InitializeComponent();
-            
+            if(File.Exists("images\\save.png"))
+            {
+                but_End.Image = new Bitmap("images\\save.png");
+            }
         }
 
         private void TextBoxEntering(object sender, EventArgs e)
@@ -160,14 +164,24 @@ namespace TestingCenter_TestCreator
 
         private void but_Del_Click(object sender, EventArgs e)
         {
-            flow_All.Controls.RemoveAt(CURRENT - 1);
+            int x;
+            if (CURRENT != 0)
+            {
+                x = CURRENT - 1;
+                CURRENT--;
+            }
+            else
+            {
+                x = CURRENT;
+            }
 
-            Questions.RemoveAt(CURRENT-1);
-            AnswerCount.RemoveAt(CURRENT - 1);
-            Answers.RemoveAt(CURRENT - 1);
-            RightAnswers.RemoveAt(CURRENT - 1);
+            flow_All.Controls.RemoveAt(x);
+            Questions.RemoveAt(x);
+            AnswerCount.RemoveAt(x);
+            Answers.RemoveAt(x);
+            RightAnswers.RemoveAt(x);
 
-            CURRENT--;
+            
             QuestionsCount--;
             PositionUpdating();
             for(int i=0;i<flow_All.Controls.Count;i++)
