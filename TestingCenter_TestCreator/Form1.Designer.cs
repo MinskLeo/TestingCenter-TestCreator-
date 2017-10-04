@@ -274,9 +274,10 @@
             // 
             this.but_New.Location = new System.Drawing.Point(935, 501);
             this.but_New.Name = "but_New";
-            this.but_New.Size = new System.Drawing.Size(75, 28);
+            this.but_New.Size = new System.Drawing.Size(74, 60);
             this.but_New.TabIndex = 8;
             this.but_New.Text = "Новый";
+            this.but_New.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_New.UseVisualStyleBackColor = true;
             this.but_New.Click += new System.EventHandler(this.but_New_Click);
             // 
@@ -284,9 +285,10 @@
             // 
             this.but_Del.Location = new System.Drawing.Point(1046, 501);
             this.but_Del.Name = "but_Del";
-            this.but_Del.Size = new System.Drawing.Size(75, 28);
+            this.but_Del.Size = new System.Drawing.Size(74, 60);
             this.but_Del.TabIndex = 9;
             this.but_Del.Text = "Удалить";
+            this.but_Del.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_Del.UseVisualStyleBackColor = true;
             this.but_Del.Click += new System.EventHandler(this.but_Del_Click);
             // 
