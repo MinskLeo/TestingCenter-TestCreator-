@@ -38,7 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Tname = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -46,7 +46,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(69, 272);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 23);
+            this.button1.Size = new System.Drawing.Size(138, 32);
             this.button1.TabIndex = 0;
             this.button1.Text = "Создать тест";
             this.button1.UseVisualStyleBackColor = true;
@@ -127,12 +127,12 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "секунды";
             // 
-            // textBox4
+            // Tname
             // 
-            this.textBox4.Location = new System.Drawing.Point(40, 48);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(207, 26);
-            this.textBox4.TabIndex = 7;
+            this.Tname.Location = new System.Drawing.Point(40, 48);
+            this.Tname.Name = "Tname";
+            this.Tname.Size = new System.Drawing.Size(207, 26);
+            this.Tname.TabIndex = 7;
             // 
             // label7
             // 
@@ -149,7 +149,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(301, 326);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.Tname);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -180,7 +180,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox Tname;
         private System.Windows.Forms.Label label7;
     }
 }

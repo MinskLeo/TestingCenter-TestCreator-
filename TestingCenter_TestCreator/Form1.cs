@@ -21,8 +21,6 @@ namespace TestingCenter_TestCreator
         private static List<string[]> Answers = new List<string[]>();
         private static List<string> RightAnswers = new List<string>();
 
-        TestEnding ending = new TestEnding();
-
         public Form1()
         {
             InitializeComponent();
@@ -210,6 +208,7 @@ namespace TestingCenter_TestCreator
 
         private void but_End_Click(object sender, EventArgs e)
         {
+            TestEnding ending = new TestEnding(QuestionsCount);
             this.Hide();
             ending.Show();
         }
