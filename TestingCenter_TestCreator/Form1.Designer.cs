@@ -61,7 +61,7 @@
             this.lb_Question.AutoSize = true;
             this.lb_Question.Location = new System.Drawing.Point(12, 40);
             this.lb_Question.Name = "lb_Question";
-            this.lb_Question.Size = new System.Drawing.Size(64, 18);
+            this.lb_Question.Size = new System.Drawing.Size(103, 27);
             this.lb_Question.TabIndex = 0;
             this.lb_Question.Text = "Вопрос:";
             // 
@@ -79,7 +79,7 @@
             0,
             0});
             this.num_AnswCount.Name = "num_AnswCount";
-            this.num_AnswCount.Size = new System.Drawing.Size(55, 25);
+            this.num_AnswCount.Size = new System.Drawing.Size(55, 34);
             this.num_AnswCount.TabIndex = 1;
             this.num_AnswCount.Value = new decimal(new int[] {
             1,
@@ -93,7 +93,7 @@
             this.lb_AnwCount.AutoSize = true;
             this.lb_AnwCount.Location = new System.Drawing.Point(12, 89);
             this.lb_AnwCount.Name = "lb_AnwCount";
-            this.lb_AnwCount.Size = new System.Drawing.Size(160, 18);
+            this.lb_AnwCount.Size = new System.Drawing.Size(259, 27);
             this.lb_AnwCount.TabIndex = 2;
             this.lb_AnwCount.Text = "Количество ответов:";
             // 
@@ -122,7 +122,7 @@
             // 
             this.tb_6.Location = new System.Drawing.Point(67, 291);
             this.tb_6.Name = "tb_6";
-            this.tb_6.Size = new System.Drawing.Size(151, 25);
+            this.tb_6.Size = new System.Drawing.Size(151, 34);
             this.tb_6.TabIndex = 11;
             this.tb_6.Visible = false;
             this.tb_6.Enter += new System.EventHandler(this.TextBoxEntering);
@@ -132,7 +132,7 @@
             // 
             this.tb_5.Location = new System.Drawing.Point(67, 240);
             this.tb_5.Name = "tb_5";
-            this.tb_5.Size = new System.Drawing.Size(151, 25);
+            this.tb_5.Size = new System.Drawing.Size(151, 34);
             this.tb_5.TabIndex = 10;
             this.tb_5.Visible = false;
             this.tb_5.Enter += new System.EventHandler(this.TextBoxEntering);
@@ -142,7 +142,7 @@
             // 
             this.tb_4.Location = new System.Drawing.Point(67, 189);
             this.tb_4.Name = "tb_4";
-            this.tb_4.Size = new System.Drawing.Size(151, 25);
+            this.tb_4.Size = new System.Drawing.Size(151, 34);
             this.tb_4.TabIndex = 9;
             this.tb_4.Visible = false;
             this.tb_4.Enter += new System.EventHandler(this.TextBoxEntering);
@@ -152,7 +152,7 @@
             // 
             this.tb_3.Location = new System.Drawing.Point(67, 138);
             this.tb_3.Name = "tb_3";
-            this.tb_3.Size = new System.Drawing.Size(151, 25);
+            this.tb_3.Size = new System.Drawing.Size(151, 34);
             this.tb_3.TabIndex = 8;
             this.tb_3.Visible = false;
             this.tb_3.Enter += new System.EventHandler(this.TextBoxEntering);
@@ -162,7 +162,7 @@
             // 
             this.tb_2.Location = new System.Drawing.Point(67, 87);
             this.tb_2.Name = "tb_2";
-            this.tb_2.Size = new System.Drawing.Size(151, 25);
+            this.tb_2.Size = new System.Drawing.Size(151, 34);
             this.tb_2.TabIndex = 7;
             this.tb_2.Visible = false;
             this.tb_2.Enter += new System.EventHandler(this.TextBoxEntering);
@@ -172,7 +172,7 @@
             // 
             this.tb_1.Location = new System.Drawing.Point(67, 36);
             this.tb_1.Name = "tb_1";
-            this.tb_1.Size = new System.Drawing.Size(151, 25);
+            this.tb_1.Size = new System.Drawing.Size(151, 34);
             this.tb_1.TabIndex = 6;
             this.tb_1.Enter += new System.EventHandler(this.TextBoxEntering);
             this.tb_1.Leave += new System.EventHandler(this.TextBoxLeaving);
@@ -182,7 +182,7 @@
             this.cb_6.AutoSize = true;
             this.cb_6.Location = new System.Drawing.Point(26, 297);
             this.cb_6.Name = "cb_6";
-            this.cb_6.Size = new System.Drawing.Size(15, 14);
+            this.cb_6.Size = new System.Drawing.Size(22, 21);
             this.cb_6.TabIndex = 5;
             this.cb_6.UseVisualStyleBackColor = true;
             this.cb_6.Visible = false;
@@ -192,7 +192,7 @@
             this.cb_5.AutoSize = true;
             this.cb_5.Location = new System.Drawing.Point(26, 246);
             this.cb_5.Name = "cb_5";
-            this.cb_5.Size = new System.Drawing.Size(15, 14);
+            this.cb_5.Size = new System.Drawing.Size(22, 21);
             this.cb_5.TabIndex = 4;
             this.cb_5.UseVisualStyleBackColor = true;
             this.cb_5.Visible = false;
@@ -202,7 +202,7 @@
             this.cb_4.AutoSize = true;
             this.cb_4.Location = new System.Drawing.Point(26, 195);
             this.cb_4.Name = "cb_4";
-            this.cb_4.Size = new System.Drawing.Size(15, 14);
+            this.cb_4.Size = new System.Drawing.Size(22, 21);
             this.cb_4.TabIndex = 3;
             this.cb_4.UseVisualStyleBackColor = true;
             this.cb_4.Visible = false;
@@ -212,7 +212,7 @@
             this.cb_3.AutoSize = true;
             this.cb_3.Location = new System.Drawing.Point(26, 144);
             this.cb_3.Name = "cb_3";
-            this.cb_3.Size = new System.Drawing.Size(15, 14);
+            this.cb_3.Size = new System.Drawing.Size(22, 21);
             this.cb_3.TabIndex = 2;
             this.cb_3.UseVisualStyleBackColor = true;
             this.cb_3.Visible = false;
@@ -222,7 +222,7 @@
             this.cb_2.AutoSize = true;
             this.cb_2.Location = new System.Drawing.Point(26, 93);
             this.cb_2.Name = "cb_2";
-            this.cb_2.Size = new System.Drawing.Size(15, 14);
+            this.cb_2.Size = new System.Drawing.Size(22, 21);
             this.cb_2.TabIndex = 1;
             this.cb_2.UseVisualStyleBackColor = true;
             this.cb_2.Visible = false;
@@ -232,7 +232,7 @@
             this.cb_1.AutoSize = true;
             this.cb_1.Location = new System.Drawing.Point(26, 42);
             this.cb_1.Name = "cb_1";
-            this.cb_1.Size = new System.Drawing.Size(15, 14);
+            this.cb_1.Size = new System.Drawing.Size(22, 21);
             this.cb_1.TabIndex = 0;
             this.cb_1.UseVisualStyleBackColor = true;
             // 
@@ -246,6 +246,7 @@
             // 
             // menuStrip
             // 
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(1133, 24);
@@ -256,7 +257,7 @@
             // 
             this.tb_Question.Location = new System.Drawing.Point(82, 40);
             this.tb_Question.Name = "tb_Question";
-            this.tb_Question.Size = new System.Drawing.Size(151, 25);
+            this.tb_Question.Size = new System.Drawing.Size(151, 34);
             this.tb_Question.TabIndex = 6;
             this.tb_Question.Enter += new System.EventHandler(this.TextBoxEntering);
             this.tb_Question.Leave += new System.EventHandler(this.TextBoxLeaving);
@@ -312,10 +313,11 @@
             this.but_End.Text = "Завершить";
             this.but_End.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_End.UseVisualStyleBackColor = true;
+            this.but_End.Click += new System.EventHandler(this.but_End_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1133, 582);
             this.Controls.Add(this.but_End);
