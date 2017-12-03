@@ -1,16 +1,16 @@
-п»їnamespace TestingCenter_TestCreator
+namespace TestingCenter_TestCreator
 {
     partial class Form1
     {
         /// <summary>
-        /// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
+        /// Обязательная переменная конструктора.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
+        /// Освободить все используемые ресурсы.
         /// </summary>
-        /// <param name="disposing">РёСЃС‚РёРЅРЅРѕ, РµСЃР»Рё СѓРїСЂР°РІР»СЏРµРјС‹Р№ СЂРµСЃСѓСЂСЃ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СѓРґР°Р»РµРЅ; РёРЅР°С‡Рµ Р»РѕР¶РЅРѕ.</param>
+        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region РљРѕРґ, Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё СЃРѕР·РґР°РЅРЅС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРѕРј С„РѕСЂРј Windows
+        #region Код, автоматически созданный конструктором форм Windows
 
         /// <summary>
-        /// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
-        /// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
+        /// Требуемый метод для поддержки конструктора — не изменяйте 
+        /// содержимое этого метода с помощью редактора кода.
         /// </summary>
         private void InitializeComponent()
         {
@@ -32,31 +32,28 @@
             this.num_AnswCount = new System.Windows.Forms.NumericUpDown();
             this.lb_AnwCount = new System.Windows.Forms.Label();
             this.gb_Answers = new System.Windows.Forms.GroupBox();
-            this.tb_1 = new System.Windows.Forms.TextBox();
-            this.tb_2 = new System.Windows.Forms.TextBox();
-            this.tb_3 = new System.Windows.Forms.TextBox();
-            this.tb_4 = new System.Windows.Forms.TextBox();
-            this.tb_5 = new System.Windows.Forms.TextBox();
             this.tb_6 = new System.Windows.Forms.TextBox();
-            this.cb_1 = new System.Windows.Forms.CheckBox();
-            this.cb_2 = new System.Windows.Forms.CheckBox();
-            this.cb_3 = new System.Windows.Forms.CheckBox();
-            this.cb_4 = new System.Windows.Forms.CheckBox();
-            this.cb_5 = new System.Windows.Forms.CheckBox();
+            this.tb_5 = new System.Windows.Forms.TextBox();
+            this.tb_4 = new System.Windows.Forms.TextBox();
+            this.tb_3 = new System.Windows.Forms.TextBox();
+            this.tb_2 = new System.Windows.Forms.TextBox();
+            this.tb_1 = new System.Windows.Forms.TextBox();
             this.cb_6 = new System.Windows.Forms.CheckBox();
+            this.cb_5 = new System.Windows.Forms.CheckBox();
+            this.cb_4 = new System.Windows.Forms.CheckBox();
+            this.cb_3 = new System.Windows.Forms.CheckBox();
+            this.cb_2 = new System.Windows.Forms.CheckBox();
+            this.cb_1 = new System.Windows.Forms.CheckBox();
             this.flow_All = new System.Windows.Forms.FlowLayoutPanel();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tb_Question = new System.Windows.Forms.TextBox();
             this.lb_Position = new System.Windows.Forms.Label();
             this.but_New = new System.Windows.Forms.Button();
             this.but_Del = new System.Windows.Forms.Button();
             this.but_Save = new System.Windows.Forms.Button();
             this.but_End = new System.Windows.Forms.Button();
-            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.num_AnswCount)).BeginInit();
             this.gb_Answers.SuspendLayout();
-            this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // lb_Question
@@ -64,9 +61,9 @@
             this.lb_Question.AutoSize = true;
             this.lb_Question.Location = new System.Drawing.Point(12, 40);
             this.lb_Question.Name = "lb_Question";
-            this.lb_Question.Size = new System.Drawing.Size(64, 18);
+            this.lb_Question.Size = new System.Drawing.Size(103, 27);
             this.lb_Question.TabIndex = 0;
-            this.lb_Question.Text = "Р’РѕРїСЂРѕСЃ:";
+            this.lb_Question.Text = "Вопрос:";
             // 
             // num_AnswCount
             // 
@@ -82,8 +79,8 @@
             0,
             0});
             this.num_AnswCount.Name = "num_AnswCount";
-            this.num_AnswCount.Size = new System.Drawing.Size(55, 25);
-            this.num_AnswCount.TabIndex = 2;
+            this.num_AnswCount.Size = new System.Drawing.Size(55, 34);
+            this.num_AnswCount.TabIndex = 1;
             this.num_AnswCount.Value = new decimal(new int[] {
             1,
             0,
@@ -96,154 +93,148 @@
             this.lb_AnwCount.AutoSize = true;
             this.lb_AnwCount.Location = new System.Drawing.Point(12, 89);
             this.lb_AnwCount.Name = "lb_AnwCount";
-            this.lb_AnwCount.Size = new System.Drawing.Size(160, 18);
-            this.lb_AnwCount.TabIndex = 0;
-            this.lb_AnwCount.Text = "РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РІРµС‚РѕРІ:";
+            this.lb_AnwCount.Size = new System.Drawing.Size(259, 27);
+            this.lb_AnwCount.TabIndex = 2;
+            this.lb_AnwCount.Text = "Количество ответов:";
             // 
             // gb_Answers
             // 
-            this.gb_Answers.Controls.Add(this.tb_1);
-            this.gb_Answers.Controls.Add(this.tb_2);
-            this.gb_Answers.Controls.Add(this.tb_3);
-            this.gb_Answers.Controls.Add(this.tb_4);
-            this.gb_Answers.Controls.Add(this.tb_5);
             this.gb_Answers.Controls.Add(this.tb_6);
-            this.gb_Answers.Controls.Add(this.cb_1);
-            this.gb_Answers.Controls.Add(this.cb_2);
-            this.gb_Answers.Controls.Add(this.cb_3);
-            this.gb_Answers.Controls.Add(this.cb_4);
-            this.gb_Answers.Controls.Add(this.cb_5);
+            this.gb_Answers.Controls.Add(this.tb_5);
+            this.gb_Answers.Controls.Add(this.tb_4);
+            this.gb_Answers.Controls.Add(this.tb_3);
+            this.gb_Answers.Controls.Add(this.tb_2);
+            this.gb_Answers.Controls.Add(this.tb_1);
             this.gb_Answers.Controls.Add(this.cb_6);
+            this.gb_Answers.Controls.Add(this.cb_5);
+            this.gb_Answers.Controls.Add(this.cb_4);
+            this.gb_Answers.Controls.Add(this.cb_3);
+            this.gb_Answers.Controls.Add(this.cb_2);
+            this.gb_Answers.Controls.Add(this.cb_1);
             this.gb_Answers.Location = new System.Drawing.Point(15, 140);
             this.gb_Answers.Name = "gb_Answers";
             this.gb_Answers.Size = new System.Drawing.Size(914, 354);
             this.gb_Answers.TabIndex = 3;
             this.gb_Answers.TabStop = false;
-            this.gb_Answers.Text = "Р’Р°СЂРёР°РЅС‚С‹ РѕС‚РІРµС‚РѕРІ:";
-            // 
-            // tb_1
-            // 
-            this.tb_1.Location = new System.Drawing.Point(67, 36);
-            this.tb_1.Name = "tb_1";
-            this.tb_1.Size = new System.Drawing.Size(151, 25);
-            this.tb_1.TabIndex = 4;
-            this.tb_1.Enter += new System.EventHandler(this.TextBoxEntering);
-            this.tb_1.Leave += new System.EventHandler(this.TextBoxLeaving);
-            // 
-            // tb_2
-            // 
-            this.tb_2.Location = new System.Drawing.Point(67, 87);
-            this.tb_2.Name = "tb_2";
-            this.tb_2.Size = new System.Drawing.Size(151, 25);
-            this.tb_2.TabIndex = 5;
-            this.tb_2.Visible = false;
-            this.tb_2.Enter += new System.EventHandler(this.TextBoxEntering);
-            this.tb_2.Leave += new System.EventHandler(this.TextBoxLeaving);
-            // 
-            // tb_3
-            // 
-            this.tb_3.Location = new System.Drawing.Point(67, 138);
-            this.tb_3.Name = "tb_3";
-            this.tb_3.Size = new System.Drawing.Size(151, 25);
-            this.tb_3.TabIndex = 6;
-            this.tb_3.Visible = false;
-            this.tb_3.Enter += new System.EventHandler(this.TextBoxEntering);
-            this.tb_3.Leave += new System.EventHandler(this.TextBoxLeaving);
-            // 
-            // tb_4
-            // 
-            this.tb_4.Location = new System.Drawing.Point(67, 189);
-            this.tb_4.Name = "tb_4";
-            this.tb_4.Size = new System.Drawing.Size(151, 25);
-            this.tb_4.TabIndex = 7;
-            this.tb_4.Visible = false;
-            this.tb_4.Enter += new System.EventHandler(this.TextBoxEntering);
-            this.tb_4.Leave += new System.EventHandler(this.TextBoxLeaving);
-            // 
-            // tb_5
-            // 
-            this.tb_5.Location = new System.Drawing.Point(67, 240);
-            this.tb_5.Name = "tb_5";
-            this.tb_5.Size = new System.Drawing.Size(151, 25);
-            this.tb_5.TabIndex = 8;
-            this.tb_5.Visible = false;
-            this.tb_5.Enter += new System.EventHandler(this.TextBoxEntering);
-            this.tb_5.Leave += new System.EventHandler(this.TextBoxLeaving);
+            this.gb_Answers.Text = "Варианты ответов:";
             // 
             // tb_6
             // 
             this.tb_6.Location = new System.Drawing.Point(67, 291);
             this.tb_6.Name = "tb_6";
-            this.tb_6.Size = new System.Drawing.Size(151, 25);
-            this.tb_6.TabIndex = 9;
+            this.tb_6.Size = new System.Drawing.Size(151, 34);
+            this.tb_6.TabIndex = 11;
             this.tb_6.Visible = false;
             this.tb_6.Enter += new System.EventHandler(this.TextBoxEntering);
             this.tb_6.Leave += new System.EventHandler(this.TextBoxLeaving);
             // 
-            // cb_1
+            // tb_5
             // 
-            this.cb_1.AutoSize = true;
-            this.cb_1.Location = new System.Drawing.Point(26, 42);
-            this.cb_1.Name = "cb_1";
-            this.cb_1.Size = new System.Drawing.Size(15, 14);
-            this.cb_1.TabIndex = 3;
-            this.cb_1.TabStop = false;
-            this.cb_1.UseVisualStyleBackColor = true;
+            this.tb_5.Location = new System.Drawing.Point(67, 240);
+            this.tb_5.Name = "tb_5";
+            this.tb_5.Size = new System.Drawing.Size(151, 34);
+            this.tb_5.TabIndex = 10;
+            this.tb_5.Visible = false;
+            this.tb_5.Enter += new System.EventHandler(this.TextBoxEntering);
+            this.tb_5.Leave += new System.EventHandler(this.TextBoxLeaving);
             // 
-            // cb_2
+            // tb_4
             // 
-            this.cb_2.AutoSize = true;
-            this.cb_2.Location = new System.Drawing.Point(26, 93);
-            this.cb_2.Name = "cb_2";
-            this.cb_2.Size = new System.Drawing.Size(15, 14);
-            this.cb_2.TabIndex = 5;
-            this.cb_2.TabStop = false;
-            this.cb_2.UseVisualStyleBackColor = true;
-            this.cb_2.Visible = false;
+            this.tb_4.Location = new System.Drawing.Point(67, 189);
+            this.tb_4.Name = "tb_4";
+            this.tb_4.Size = new System.Drawing.Size(151, 34);
+            this.tb_4.TabIndex = 9;
+            this.tb_4.Visible = false;
+            this.tb_4.Enter += new System.EventHandler(this.TextBoxEntering);
+            this.tb_4.Leave += new System.EventHandler(this.TextBoxLeaving);
             // 
-            // cb_3
+            // tb_3
             // 
-            this.cb_3.AutoSize = true;
-            this.cb_3.Location = new System.Drawing.Point(26, 144);
-            this.cb_3.Name = "cb_3";
-            this.cb_3.Size = new System.Drawing.Size(15, 14);
-            this.cb_3.TabIndex = 7;
-            this.cb_3.TabStop = false;
-            this.cb_3.UseVisualStyleBackColor = true;
-            this.cb_3.Visible = false;
+            this.tb_3.Location = new System.Drawing.Point(67, 138);
+            this.tb_3.Name = "tb_3";
+            this.tb_3.Size = new System.Drawing.Size(151, 34);
+            this.tb_3.TabIndex = 8;
+            this.tb_3.Visible = false;
+            this.tb_3.Enter += new System.EventHandler(this.TextBoxEntering);
+            this.tb_3.Leave += new System.EventHandler(this.TextBoxLeaving);
             // 
-            // cb_4
+            // tb_2
             // 
-            this.cb_4.AutoSize = true;
-            this.cb_4.Location = new System.Drawing.Point(26, 195);
-            this.cb_4.Name = "cb_4";
-            this.cb_4.Size = new System.Drawing.Size(15, 14);
-            this.cb_4.TabIndex = 9;
-            this.cb_4.TabStop = false;
-            this.cb_4.UseVisualStyleBackColor = true;
-            this.cb_4.Visible = false;
+            this.tb_2.Location = new System.Drawing.Point(67, 87);
+            this.tb_2.Name = "tb_2";
+            this.tb_2.Size = new System.Drawing.Size(151, 34);
+            this.tb_2.TabIndex = 7;
+            this.tb_2.Visible = false;
+            this.tb_2.Enter += new System.EventHandler(this.TextBoxEntering);
+            this.tb_2.Leave += new System.EventHandler(this.TextBoxLeaving);
             // 
-            // cb_5
+            // tb_1
             // 
-            this.cb_5.AutoSize = true;
-            this.cb_5.Location = new System.Drawing.Point(26, 246);
-            this.cb_5.Name = "cb_5";
-            this.cb_5.Size = new System.Drawing.Size(15, 14);
-            this.cb_5.TabIndex = 11;
-            this.cb_5.TabStop = false;
-            this.cb_5.UseVisualStyleBackColor = true;
-            this.cb_5.Visible = false;
+            this.tb_1.Location = new System.Drawing.Point(67, 36);
+            this.tb_1.Name = "tb_1";
+            this.tb_1.Size = new System.Drawing.Size(151, 34);
+            this.tb_1.TabIndex = 6;
+            this.tb_1.Enter += new System.EventHandler(this.TextBoxEntering);
+            this.tb_1.Leave += new System.EventHandler(this.TextBoxLeaving);
             // 
             // cb_6
             // 
             this.cb_6.AutoSize = true;
             this.cb_6.Location = new System.Drawing.Point(26, 297);
             this.cb_6.Name = "cb_6";
-            this.cb_6.Size = new System.Drawing.Size(15, 14);
-            this.cb_6.TabIndex = 13;
-            this.cb_6.TabStop = false;
+            this.cb_6.Size = new System.Drawing.Size(22, 21);
+            this.cb_6.TabIndex = 5;
             this.cb_6.UseVisualStyleBackColor = true;
             this.cb_6.Visible = false;
+            // 
+            // cb_5
+            // 
+            this.cb_5.AutoSize = true;
+            this.cb_5.Location = new System.Drawing.Point(26, 246);
+            this.cb_5.Name = "cb_5";
+            this.cb_5.Size = new System.Drawing.Size(22, 21);
+            this.cb_5.TabIndex = 4;
+            this.cb_5.UseVisualStyleBackColor = true;
+            this.cb_5.Visible = false;
+            // 
+            // cb_4
+            // 
+            this.cb_4.AutoSize = true;
+            this.cb_4.Location = new System.Drawing.Point(26, 195);
+            this.cb_4.Name = "cb_4";
+            this.cb_4.Size = new System.Drawing.Size(22, 21);
+            this.cb_4.TabIndex = 3;
+            this.cb_4.UseVisualStyleBackColor = true;
+            this.cb_4.Visible = false;
+            // 
+            // cb_3
+            // 
+            this.cb_3.AutoSize = true;
+            this.cb_3.Location = new System.Drawing.Point(26, 144);
+            this.cb_3.Name = "cb_3";
+            this.cb_3.Size = new System.Drawing.Size(22, 21);
+            this.cb_3.TabIndex = 2;
+            this.cb_3.UseVisualStyleBackColor = true;
+            this.cb_3.Visible = false;
+            // 
+            // cb_2
+            // 
+            this.cb_2.AutoSize = true;
+            this.cb_2.Location = new System.Drawing.Point(26, 93);
+            this.cb_2.Name = "cb_2";
+            this.cb_2.Size = new System.Drawing.Size(22, 21);
+            this.cb_2.TabIndex = 1;
+            this.cb_2.UseVisualStyleBackColor = true;
+            this.cb_2.Visible = false;
+            // 
+            // cb_1
+            // 
+            this.cb_1.AutoSize = true;
+            this.cb_1.Location = new System.Drawing.Point(26, 42);
+            this.cb_1.Name = "cb_1";
+            this.cb_1.Size = new System.Drawing.Size(22, 21);
+            this.cb_1.TabIndex = 0;
+            this.cb_1.UseVisualStyleBackColor = true;
             // 
             // flow_All
             // 
@@ -256,27 +247,18 @@
             // menuStrip
             // 
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.openToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(1133, 24);
             this.menuStrip.TabIndex = 5;
             this.menuStrip.Text = "menuStrip1";
             // 
-            // openToolStripMenuItem
-            // 
-            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(91, 20);
-            this.openToolStripMenuItem.Text = "РћС‚РєСЂС‹С‚СЊ С‚РµСЃС‚";
-            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
-            // 
             // tb_Question
             // 
             this.tb_Question.Location = new System.Drawing.Point(82, 40);
             this.tb_Question.Name = "tb_Question";
-            this.tb_Question.Size = new System.Drawing.Size(204, 25);
-            this.tb_Question.TabIndex = 1;
+            this.tb_Question.Size = new System.Drawing.Size(151, 34);
+            this.tb_Question.TabIndex = 6;
             this.tb_Question.Enter += new System.EventHandler(this.TextBoxEntering);
             this.tb_Question.Leave += new System.EventHandler(this.TextBoxLeaving);
             // 
@@ -286,7 +268,7 @@
             this.lb_Position.Name = "lb_Position";
             this.lb_Position.Size = new System.Drawing.Size(185, 29);
             this.lb_Position.TabIndex = 7;
-            this.lb_Position.Text = "1/1";
+            this.lb_Position.Text = "[Position\\All]";
             this.lb_Position.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // but_New
@@ -295,8 +277,7 @@
             this.but_New.Name = "but_New";
             this.but_New.Size = new System.Drawing.Size(74, 60);
             this.but_New.TabIndex = 8;
-            this.but_New.TabStop = false;
-            this.but_New.Text = "РќРѕРІС‹Р№";
+            this.but_New.Text = "Новый";
             this.but_New.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_New.UseVisualStyleBackColor = true;
             this.but_New.Click += new System.EventHandler(this.but_New_Click);
@@ -307,8 +288,7 @@
             this.but_Del.Name = "but_Del";
             this.but_Del.Size = new System.Drawing.Size(74, 60);
             this.but_Del.TabIndex = 9;
-            this.but_Del.TabStop = false;
-            this.but_Del.Text = "РЈРґР°Р»РёС‚СЊ";
+            this.but_Del.Text = "Удалить";
             this.but_Del.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_Del.UseVisualStyleBackColor = true;
             this.but_Del.Click += new System.EventHandler(this.but_Del_Click);
@@ -319,7 +299,7 @@
             this.but_Save.Name = "but_Save";
             this.but_Save.Size = new System.Drawing.Size(577, 28);
             this.but_Save.TabIndex = 10;
-            this.but_Save.Text = "РЎРѕС…СЂР°РЅРёС‚СЊ РІРѕРїСЂРѕСЃ";
+            this.but_Save.Text = "Сохранить вопрос";
             this.but_Save.UseVisualStyleBackColor = true;
             this.but_Save.Click += new System.EventHandler(this.but_Save_Click);
             // 
@@ -330,20 +310,14 @@
             this.but_End.Name = "but_End";
             this.but_End.Size = new System.Drawing.Size(116, 78);
             this.but_End.TabIndex = 11;
-            this.but_End.TabStop = false;
-            this.but_End.Text = "Р—Р°РІРµСЂС€РёС‚СЊ";
+            this.but_End.Text = "Завершить";
             this.but_End.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_End.UseVisualStyleBackColor = true;
             this.but_End.Click += new System.EventHandler(this.but_End_Click);
             // 
-            // openFileDialog
-            // 
-            this.openFileDialog.Filter = "*.txt|*.txt|All|*.*";
-            this.openFileDialog.RestoreDirectory = true;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1133, 582);
             this.Controls.Add(this.but_End);
@@ -366,8 +340,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.num_AnswCount)).EndInit();
             this.gb_Answers.ResumeLayout(false);
             this.gb_Answers.PerformLayout();
-            this.menuStrip.ResumeLayout(false);
-            this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -399,8 +371,6 @@
         private System.Windows.Forms.Button but_Del;
         private System.Windows.Forms.Button but_Save;
         private System.Windows.Forms.Button but_End;
-        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
-        private System.Windows.Forms.OpenFileDialog openFileDialog;
     }
 }
 
